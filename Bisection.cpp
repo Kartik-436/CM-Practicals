@@ -9,12 +9,6 @@ double function(double x)
 
 void bisection(double a, double b, double tol, int max_iter)
 {
-    // if (function(a) * function(b) >= 0)
-    // {
-    //     cout << "The bisection method cannot be applied" << endl;
-    //     return;
-    // }
-
     double c;
     int iter = 0;
     while (fabs(b - a) > tol && iter < max_iter)
